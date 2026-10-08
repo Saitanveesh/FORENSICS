@@ -1,37 +1,22 @@
-# FORENSICS — The Missing Window
+# FORENSICS — The Missing Window (v2)
 
-**T-MODS cybersecurity investigation event | Case N-114 | HOD demonstration**
+A beginner-friendly forensic mystery prototype developed for a T-MODS Cyber Security Club event and HOD demonstration.
 
-A working, self-contained, browser-based prototype for a university digital-forensics competition. The app is implemented in **one HTML file** with embedded CSS, JavaScript and 17 synthetic evidence artifacts. No server or dependencies are required to explore the demo.
+### Start
 
-## Try the demo
+- Open [index.html](./index.html) in GitHub and choose **Download raw file**. Double-click the downloaded HTML in Chrome or Edge. The app is a self-contained offline web page.
+- Meet **Arjun, Sana, Dev and Meera** before watching a **continuous animated incident reconstruction** (no separate slides).
+- Enter six guided investigation chapters. Each clue starts with a plain-English explanation; original technical records are optional.
+- Bookmark findings, take notes and create a structured evidence-based report.
 
-1. Download [index.html](./index.html) (GitHub file page → **Download raw file**).
-2. Open it using Microsoft Edge or Chrome.
-3. Select **Play cinematic briefing**.
-4. Investigate the Evidence Vault, CCTV Viewer, Persons of Interest, Timeline Lab and Investigation Board.
-5. Submit a structured final report to see the **prototype** scoring rubric.
+The browser's robotic text-to-speech is **not used**. The interactive reconstruction plays with captions. The player accepts a locally selected genuine human-voice MP3/WAV; users can also narrate live. A standalone silent HD video and a timed human narration script are supplied in the downloadable HOD package separately.
 
-### Optional browser-hosted demo
+### Evidence and limitations
 
-To enable GitHub Pages for this repository: **Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save**. Once publishing is completed, open the URL GitHub provides. GitHub Pages is not automatically enabled by this commit.
+Case N-114 is **fictional**. The simulated CCTV visualizations are reconstructions, not evidentiary video. There are 17 synthetic records covering door access, Stage B, email, workstation events, a printer, network records, QR case movements, interviews and recovery.
 
-## Demo functionality
+**This is an educational HOD demo, not competition infrastructure.** Progress and report submissions are stored locally; answer checking is inspectable in the browser, and there is no authenticated server, fair online leaderboard or protected scoring. Before a public competition, move the answer key and grading to a secured backend, pilot the case, and enable team authentication.
 
-- Six-scene cinematic briefing with optional browser speech narration and captions.
-- 17 internally consistent fictional evidence artifacts with file downloads and SHA-256 manifest.
-- Search, filter and bookmarking in the evidence vault.
-- Visual *reconstructions* of two CCTV event indexes (not real CCTV footage).
-- Camera clock normalization calculator.
-- Four fictional suspects, notes and evidence linking.
-- Investigator-built timeline with CSV export.
-- Structured final submission, provisional rubric and JSON report export.
-- Local browser persistence; responsive layout.
+To host as GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → main /(root)**.
 
-## Limitations
-
-**This is a stakeholder demo, not production competition infrastructure.** The case, identities, logs and dates are invented for education. All submission scoring happens in browser JavaScript and can be reverse engineered; scores are not protected against repeat submissions, and team authentication or synchronized online leaderboards are not implemented. Written narratives still need human review. For a real competition, move grading and answer keys to a protected backend, add accounts, audit logs, team-specific datasets and secure time controls.
-
-**Organizer solution is intentionally not published in this repository.** Because the prototype grading code is visible to clients, do not deploy it as an unmodified live competition challenge.
-
-Case date is fictional: **14 November 2026**.
+All characters and incidents are invented for educational use.
